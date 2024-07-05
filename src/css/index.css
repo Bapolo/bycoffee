@@ -1,0 +1,310 @@
+@font-face
+{
+    font-family: "assinatura";
+    src: url("../font/Karstar\ Free.ttf") format("truetype");
+}
+
+
+body
+{
+    background-image: url("../images/background.png");
+    background-size: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+header
+{
+    text-align: center
+}
+
+header img
+{
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.conteudoPrincipal
+{
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.conteudoPrincipal h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.conteudoPrincipal #compreAgora
+{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: #fff;
+    margin: 1rem 0;
+    color: rgb(43, 36, 31);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.conteudoPrincipal #compreAgora:hover
+{
+    background-color: rgba(138, 93, 59, 0.8);
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.conteudoSecundario
+{
+    display: flex;
+    padding: 15rem 0 0 0;
+    justify-content: space-between;
+}
+
+.conteudoSecundario #videoDemontrativo
+{
+    width: 40%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.conteudoSecundario article
+{
+    padding: 0 2.5rem;
+}
+
+.conteudoSecundario article span
+{
+    color: rgba(138, 93, 59, 1);
+}
+
+.conteudoSecundario article h2
+{
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+#estamosAqui
+{
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+#loremIpsum
+{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+
+.assinatura
+{
+    font-family: "assinatura";
+    font-size: 4rem;
+}
+
+.seccaoBotaoDeCompra
+{
+    margin: 6rem 0;
+    text-align: center;
+}
+
+.seccaoBotaoDeCompra #botaoDeCompra
+{
+    text-decoration: none;
+    background-color: rgba(138, 93, 59, 1);
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 8rem;
+    border-radius: 3rem;
+}
+
+.seccaoBotaoDeCompra #botaoDeCompra:hover
+{
+    background-color: rgb(60, 37, 19);
+    box-shadow: inset 0 5px 8px rgba(149, 143, 143, 0.3);
+    transition: all 0.1s ease-in;
+}
+
+.depoimentos
+{
+    background-color: rgba(138, 93, 59, 1);
+    color: #fff;
+    padding: 2rem;
+}
+
+.depoimentos h2
+{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.depoimentos ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+}
+
+.depoimentos li
+{
+    list-style-type: none;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    flex: 1;
+}
+
+.depoimentos li img
+{
+    width: 40%;
+    border-radius: 100%;
+}
+
+.depoimentos li .nomeDosCleintes
+{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.depoimentos li .descricaoDoDepoimento
+{
+    text-align: center;
+}
+
+.perguntasFrequentes
+{
+    margin: 6rem 0 2rem 0;
+}
+
+.perguntasFrequentes h2
+{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgba(138, 93, 59, 1);
+}
+
+.perguntasFrequentes details
+{
+    color: #fff;
+    border-bottom: 1px solid #FFF;
+    background-color: rgba(138, 93, 59, 1);
+}
+
+
+.perguntasFrequentes details summary
+{
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.perguntasFrequentes details p
+{
+    padding: 1rem;
+    background-color: #FFF;
+    color: #282828;
+}
+
+@media (max-width: 1080px)
+{
+    .depoimentos ul
+    {
+        flex-direction: column;
+    }
+
+    .depoimentos li
+    {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .conteudoSecundario
+    {
+        flex-direction: column;  
+        align-items: center;     
+    }
+
+    .conteudoSecundario #videoDemontrativo
+    {
+        width: 90%;
+       
+    }
+
+    .conteudoSecundario article
+    {
+        margin-top: 4rem;
+    }
+  
+}
+
+@media (max-width: 670px)
+{
+    .seccaoBotaoDeCompra #botaoDeCompra
+    {
+        padding: 1rem 3rem;
+    }
+    
+}
+
+ @media (max-width: 554px)
+ {
+    .conteudoSecundario
+    {
+        padding: 10rem 0 0 0;
+    }
+ }
+
+ @media (max-width: 522px)
+ {
+    .conteudoPrincipal
+    {
+        padding: 0.5rem;
+        margin-bottom: 0;
+    }
+ }
+
+@media (max-width: 506px)
+{
+
+    .depoimentos h2
+    {
+        font-size: 32px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 470px)
+{
+
+    .conteudoPrincipal
+    {
+        padding-top: 2rem;
+    }
+
+    .conteudoPrincipal h1
+    {
+        font-size: 2rem;
+    }
+
+    .conteudoPrincipal #compreAgora
+    {
+        padding: 0.5rem 1rem;
+        margin: 1rem 0;
+    }
+
+    .seccaoBotaoDeCompra #botaoDeCompra
+    {
+        padding: 0.5rem 2rem;
+        font-size: 1.3rem;
+    }
+}
