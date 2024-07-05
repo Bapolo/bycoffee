@@ -110,7 +110,7 @@ input[type="submit"]:hover
     height: 60vw;
     background-color: rgba(14, 13, 12, 0.843);
     color: azure;
-    display: none;
+    display: flex;
 }
 
 .compraComSucesso section
@@ -168,4 +168,21 @@ input[type="submit"]:hover
     {
        width: 40%;
     }
+}
+
+@media (max-width: 900px)
+{
+    .compraComSucesso
+    {
+        flex-flow: column nowrap;
+        align-items: center;
+        padding: 5rem 0.5rem 2rem 0.5rem;
+        height: 100%;
+    }
+
+    .compraComSucesso > section
+    {
+        padding: 0 1rem;
+    }
+
 }
