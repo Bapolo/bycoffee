@@ -68,6 +68,7 @@ header img
 .conteudoSecundario #videoDemontrativo
 {
     width: 40%;
+    height: auto;
     cursor: pointer;
     object-fit: cover;
     border-radius: 5px;
