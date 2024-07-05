@@ -110,7 +110,7 @@ input[type="submit"]:hover
     height: 60vw;
     background-color: rgba(14, 13, 12, 0.843);
     color: azure;
-    display: flex;
+    display: none;
 }
 
 .compraComSucesso section
@@ -122,6 +122,7 @@ input[type="submit"]:hover
 {
     padding: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
 }
 
 .dadosDaEmpresa p
@@ -164,9 +165,9 @@ input[type="submit"]:hover
 
 @media (max-width: 1092px)
 {
-    input[type="text"], input[type="number"]
+    input[type="text"], input[type="number"], select
     {
-       width: 40%;
+       width: 60%;
     }
 }
 
@@ -184,5 +185,6 @@ input[type="submit"]:hover
     {
         padding: 0 1rem;
     }
+
 
 }
